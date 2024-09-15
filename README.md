@@ -10,16 +10,16 @@ Link to the dataset on kaggle: [Best Books (10k) Multi-Genre Data](https://www.k
 
 ## Key Structure of the code
 ### Filtering by Genre: 
-This step filters the dataset to include only books within the specified genre using ''' apply ''' and 'eval'.
+This step filters the dataset to include only books within the specified genre using  ```apply``` and ```eval```.
 
 ### Normalizing Ratings:
-Uses StandardScaler to scale the average ratings, making them more suitable for comparison.
+Uses ```StandardScaler``` to scale the average ratings, making them more suitable for comparison.
 
 ### Creating Feature Matrix: 
 A matrix of scaled average ratings is used as the feature set for finding similar books.
 
 ### Nearest Neighbors Model: 
-The NearestNeighbors model is used to find books with ratings close to the user's input.
+The ```NearestNeighbors``` model is used to find books with ratings close to the user's input.
 
 ### Getting Recommendations: 
 Finds and returns the top n recommended books.
