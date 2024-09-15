@@ -10,7 +10,7 @@ Link to the dataset on kaggle: [Best Books (10k) Multi-Genre Data](https://www.k
 
 ## Key Structure of the code
 ### Filtering by Genre: 
-This step filters the dataset to include only books within the specified genre using ' apply ' and 'eval'.
+This step filters the dataset to include only books within the specified genre using ''' apply ''' and 'eval'.
 
 ### Normalizing Ratings:
 Uses StandardScaler to scale the average ratings, making them more suitable for comparison.
